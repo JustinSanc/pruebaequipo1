@@ -70,7 +70,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         // Si deseas mostrar la ubicación en el TextView
         tvLocalizacion.setText("Lat: " + currentLocation.latitude + ", Long: " + currentLocation.longitude);
     }
-
+//Hola equipo soy francisco gabriel
     // Verificar permisos para la ubicación
     private void checkLocationPermission() {
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED &&
@@ -90,7 +90,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 checkLocationPermission();
             } else {
                 Toast.makeText(this, "Permiso de ubicación denegado", Toast.LENGTH_SHORT).show();
-                Toast.makeText(this, "Prueba, Justin", Toast.LENGTH_SHORT).show();
             }
         }
     }
