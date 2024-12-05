@@ -91,6 +91,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             } else {
                 Toast.makeText(this, "Permiso de ubicación denegado", Toast.LENGTH_SHORT).show();
                 Toast.makeText(this, "Prueba, Justin", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Prueba, Ari", Toast.LENGTH_SHORT).show();
             }
         }
     }
