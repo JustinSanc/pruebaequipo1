@@ -89,10 +89,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 checkLocationPermission();
             } else {
-                Toast.makeText(this, "Permiso de ubicación denegado", Toast.LENGTH_SHORT).show();
-                Toast.makeText(this, "Prueba, Justin", Toast.LENGTH_SHORT).show();
-                Toast.makeText(this, "Prueba, Ari", Toast.LENGTH_SHORT).show();
-                Toast.makeText(this, "Prueba, yisus", Toast.LENGTH_SHORT).show();
+                System.out.println("Error");
             }
         }
     }
