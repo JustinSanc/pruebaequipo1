@@ -2,11 +2,6 @@ package com.example.appgo;
 
 import android.Manifest;
 import android.content.Context;
-import android.content.pm.PackageManager;
-import android.os.Bundle;
-import android.widget.Button;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.FragmentActivity;
