@@ -51,7 +51,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-
+        System.out.println("Este es un ejemplo para mostrar las coordenadas en un mapa");
         // Configurar el tipo de mapa
         mMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
 
@@ -90,7 +90,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 checkLocationPermission();
             } else {
                 Toast.makeText(this, "Permiso de ubicación denegado", Toast.LENGTH_SHORT).show();
-                Toast.makeText(this, "Prueba, Justin", Toast.LENGTH_SHORT).show();
+
+                Toast.makeText(this, "Prueba de modificacion", Toast.LENGTH_SHORT).show();
             }
         }
     }
