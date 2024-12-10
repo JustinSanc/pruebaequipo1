@@ -31,7 +31,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
-
+//TENEMOS QUE ENLAZAR EL FRAGMENTO DEL MAPA PARA QUE ESTE PUEDA SER MOSTRADO
         // Inicializar vistas
         tvLocalizacion = findViewById(R.id.tvLocalizacion);
         btnVerUbicaciones = findViewById(R.id.bLocalizacion);
